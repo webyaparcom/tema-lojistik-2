@@ -1,0 +1,57 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Yeşil Yol Lojistik: yurt içi ve yurt dışı nakliye, depolama ve evden eve taşıma; teklif talebi ve yetki belgeleri. (Demo site)",
+    "en": "Yesil Yol Logistics: domestic and international freight, warehousing and home moves; quote requests and licences. (Demo site)",
+    "ar": "يشيل يول للوجستيات: نقل داخلي ودولي وتخزين ونقل أثاث مع طلب عرض سعر وتراخيص. (موقع تجريبي)"
+  },
+  "keyword": {
+    "tr": "lojistik, nakliye, depolama, taşımacılık",
+    "en": "logistics, freight, warehousing, transport",
+    "ar": "لوجستيات، شحن، تخزين، نقل"
+  },
+  "category": "Kurumsal",
+  "name": "Yeşil Yol Lojistik",
+  "domain": "lojistik-2.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "icon": "icon.png",
+  "theme_color": "#15803D",
+  "publishMode": "static",
+  "font": {
+    "body": "noto-sans",
+    "heading": "inter",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "phone": "+90 342 000 00 00",
+  "email": "teklif@yesilyol.example",
+  "colorScheme": "auto",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "2px",
+    "--mx-radius-md": "4px",
+    "--mx-radius-lg": "6px",
+    "--mx-radius-xl": "8px",
+    "--mx-shadow-md": "0 1px 2px rgba(0,0,0,.06)"
+  }
+}
