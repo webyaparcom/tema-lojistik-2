@@ -1,0 +1,172 @@
+{
+  "data": [
+    {
+      "id": "xu4hqhzzd4",
+      "name": {
+        "tr": "Hizmetlerimiz",
+        "en": "Services",
+        "ar": "خدماتنا"
+      },
+      "description": {
+        "tr": "Yükünüzün büyüklüğüne ve güzergâhına göre çözümler.",
+        "en": "Solutions by the size and route of your cargo.",
+        "ar": "حلول بحسب حجم شحنتك ومسارها."
+      },
+      "path": "hizmetlerimiz",
+      "icon": "local_shipping",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "kzfeav",
+          "nebphj",
+          "a3ozrm"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "id": "57l02lw7wk",
+      "name": {
+        "tr": "Teklif Al",
+        "en": "Get a Quote",
+        "ar": "اطلب عرض سعر"
+      },
+      "description": {
+        "tr": "Hizmeti ve uygun günü seçin; talebiniz bu demo sitede yalnızca tarayıcınızda oluşturulur. Fiyat, yazılı teklifle iletilir.",
+        "en": "Choose the service and a convenient day; on this demo site your request is created only in your browser. The price is sent in a written quote.",
+        "ar": "اختر الخدمة واليوم المناسب؛ يُنشأ طلبك في متصفحك فقط. يُرسَل السعر في عرض مكتوب."
+      },
+      "path": "teklif-al",
+      "icon": "request_quote",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "j76oxl"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "rqgkqzen6q",
+      "name": {
+        "tr": "Belgelerimiz",
+        "en": "Our Licences",
+        "ar": "تراخيصنا"
+      },
+      "description": {
+        "tr": "Yetki belgesi türleri, posta yetkisi, taşınamayacak ürünler ve cayma hakkı istisnası.",
+        "en": "Licence types, postal authorisation, items we do not carry and the withdrawal exception.",
+        "ar": "أنواع التراخيص والترخيص البريدي والأصناف غير المنقولة واستثناء حق العدول."
+      },
+      "path": "belgelerimiz",
+      "icon": "verified",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "ewsc3b"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "9sa55ah0i3",
+      "name": {
+        "tr": "Galeri",
+        "en": "Gallery",
+        "ar": "المعرض"
+      },
+      "description": {
+        "tr": "Araç filosu ve depodan görüntüler; temsilidir.",
+        "en": "Views of the fleet and the warehouse; illustrative.",
+        "ar": "صور من الأسطول والمستودع؛ توضيحية."
+      },
+      "path": "galeri",
+      "icon": "photo_library",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "rqndwi"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "xyht1v9jxj",
+      "name": {
+        "tr": "Hakkımızda",
+        "en": "About",
+        "ar": "من نحن"
+      },
+      "description": {
+        "tr": "Yeşil Yol Lojistik, yazılı teklif ve açık yetki bilgisiyle çalışan kurgusal bir demo lojistik firmasıdır. Bu sitedeki belge numaraları, adresler ve araç bilgileri kurgusaldır.",
+        "en": "Yesil Yol Logistics is a fictional demo logistics company that works with written quotes and clear authorisation details. Licence numbers, addresses and fleet details on this site are fictional.",
+        "ar": "يشيل يول للوجستيات شركة تجريبية افتراضية تعمل بعروض مكتوبة وبيانات ترخيص واضحة. أرقام التراخيص والعناوين وبيانات الأسطول في هذا الموقع افتراضية."
+      },
+      "path": "hakkimizda",
+      "icon": "info",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "go1f6l",
+          "rxofkw"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "category": "",
+      "id": "xnzu5au0ag",
+      "url": "",
+      "path": "iletisim",
+      "index": 5,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "t7ct01",
+          "t7mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon, e-posta ve çalışma saatleri.",
+        "en": "Address, phone, e-mail and opening hours.",
+        "ar": "العنوان والهاتف والبريد الإلكتروني وساعات العمل."
+      }
+    }
+  ],
+  "desc": [],
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "page": true,
+    "bgimg": true,
+    "detail": true,
+    "body": true
+  }
+}
