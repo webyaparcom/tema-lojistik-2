@@ -38,21 +38,21 @@
   <link rel="preload" href="/src/fonts/noto-sans/noto-sans-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/noto-sans/noto-sans-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/noto-sans/noto-sans-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/noto-sans.css?v=cr3gs" />
-  <link rel="stylesheet" href="/src/fonts/inter.css?v=cr3gs" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=cr3gs" />
-  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=cr3gs" />
-  <link rel="stylesheet" href="/src/rubik.css?v=cr3gs" />
-  <link rel="stylesheet" href="/src/css.css?v=cr3gs" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=cr3gs" />
+  <link rel="stylesheet" href="/src/fonts/noto-sans.css?v=fhgga" />
+  <link rel="stylesheet" href="/src/fonts/inter.css?v=fhgga" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=fhgga" />
+  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=fhgga" />
+  <link rel="stylesheet" href="/src/rubik.css?v=fhgga" />
+  <link rel="stylesheet" href="/src/css.css?v=fhgga" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=fhgga" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=cr3gs" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=fhgga" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=cr3gs" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=fhgga" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=cr3gs" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=cr3gs" />
-  <link rel="shortcut icon" href="/img/icon.png?v=cr3gs" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=fhgga" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=fhgga" />
+  <link rel="shortcut icon" href="/img/icon.png?v=fhgga" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -106,7 +106,7 @@
         "@type": "ImageObject",
         "url": "https://lojistik-2.webyapar.com/img/logo.png"
       },
-      "dateModified": "2026-10-31T14:45:58.393Z",
+      "dateModified": "2026-11-12T07:36:26.261Z",
       "breadcrumb": {
         "@id": "https://lojistik-2.webyapar.com/en/kisiselveriler/#breadcrumb"
       }
@@ -133,7 +133,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=cr3gs">
+<link rel="stylesheet" href="style.css?v=fhgga">
 </head>
 
 <body>
@@ -247,6 +247,7 @@
       <nav class="h0001-m9-nav h0001-m9-nav--sag" aria-label="Navigation">
         <ul><li><a class="h0001-m9-oge" href="/en/belgelerimiz/">Our Licences</a></li><li><a class="h0001-m9-oge" href="/en/galeri/">Gallery</a></li><li><a class="h0001-m9-oge" href="/en/hakkimizda/">About</a></li><li><a class="h0001-m9-oge" href="/en/iletisim/">Contact</a></li></ul>
       </nav>
+      
       <div class="h0001-m9-bar-dil"><nav class="wm-langbar" aria-label="Language Selector"><ul><li class="wm-lang-item"><a href="/tr/kisiselveriler/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item wm-lang-active"><a href="/en/kisiselveriler/" hreflang="en" lang="en" aria-current="true">EN</a></li><li class="wm-lang-item"><a href="/ar/kisiselveriler/" hreflang="ar" lang="ar">AR</a></li></ul></nav></div>
       <button class="h0001-m9-hamburger" type="button" aria-expanded="false" aria-controls="m9-iora00-panel" aria-label="Toggle Menu">
         <span class="material-symbols-outlined" aria-hidden="true">menu</span>
@@ -298,6 +299,8 @@
     }
     if (dugme) { dugme.addEventListener("click", function () { if (panel && panel.hidden) { ac(); } else { kapa(); } }); }
     if (kapat) { kapat.addEventListener("click", kapa); }
+    
+    document.addEventListener("click", function (e) { if (panel && !panel.hidden && !panel.contains(e.target) && !(dugme && dugme.contains(e.target))) { kapa(); } });
     document.addEventListener("keydown", function (e) { if (e.key === "Escape") { kapa(); } });
     
     if (panel) {
@@ -531,6 +534,7 @@
     <nav class="wm-langbar" aria-label="Language Selector"><ul><li class="wm-lang-item"><a href="/tr/kisiselveriler/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item wm-lang-active"><a href="/en/kisiselveriler/" hreflang="en" lang="en" aria-current="true">EN</a></li><li class="wm-lang-item"><a href="/ar/kisiselveriler/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
   </div>
 </footer>
+<nav class="f0000-f9__bar" aria-label="Main menu"><a class="f0000-f9__bar-oge" href="/en/"><span class="material-symbols-outlined" aria-hidden="true">home</span><span class="f0000-f9__bar-ad">Home</span></a><a class="f0000-f9__bar-oge" href="/en/hizmetlerimiz/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Services</span></a><a class="f0000-f9__bar-oge" href="/en/teklif-al/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Get a Quote</span></a><a class="f0000-f9__bar-oge" href="/en/belgelerimiz/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Our Licences</span></a><a class="f0000-f9__bar-oge" href="/en/galeri/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Gallery</span></a></nav>
 
 <div class="f0001-dk" role="contentinfo" aria-label="Demo credit">
   <p class="f0001-dk-text">This demo was prepared by <bdi class="f0001-dk-brand" dir="ltr">Webyapar</bdi> — <a class="f0001-dk-cta" href="https://webyapar.com/temalar#lojistik" target="_blank" rel="noopener noreferrer"><span>Get this theme</span><span class="mx-visually-hidden"> (opens in a new tab)</span><span class="material-symbols-outlined mx-flip f0001-dk-arrow" aria-hidden="true">arrow_forward</span></a></p>
@@ -541,10 +545,10 @@
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=cr3gs"></script>
-  <script defer src="/src/mx-store.js?v=cr3gs"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=cr3gs"></script>
-  <script defer src="/src/cookie.js?v=cr3gs"></script>
+  <script defer src="/src/mx-ui.js?v=fhgga"></script>
+  <script defer src="/src/mx-store.js?v=fhgga"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=fhgga"></script>
+  <script defer src="/src/cookie.js?v=fhgga"></script>
 
 </body>
 

@@ -38,21 +38,21 @@
   <link rel="preload" href="/src/fonts/noto-sans/noto-sans-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/noto-sans/noto-sans-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/noto-sans/noto-sans-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/noto-sans.css?v=nc52q" />
-  <link rel="stylesheet" href="/src/fonts/inter.css?v=nc52q" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=nc52q" />
-  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=nc52q" />
-  <link rel="stylesheet" href="/src/rubik.css?v=nc52q" />
-  <link rel="stylesheet" href="/src/css.css?v=nc52q" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=nc52q" />
+  <link rel="stylesheet" href="/src/fonts/noto-sans.css?v=wlsvf" />
+  <link rel="stylesheet" href="/src/fonts/inter.css?v=wlsvf" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=wlsvf" />
+  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=wlsvf" />
+  <link rel="stylesheet" href="/src/rubik.css?v=wlsvf" />
+  <link rel="stylesheet" href="/src/css.css?v=wlsvf" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=wlsvf" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=nc52q" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=wlsvf" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=nc52q" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=wlsvf" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=nc52q" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=nc52q" />
-  <link rel="shortcut icon" href="/img/icon.png?v=nc52q" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=wlsvf" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=wlsvf" />
+  <link rel="shortcut icon" href="/img/icon.png?v=wlsvf" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -111,7 +111,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=nc52q">
+<link rel="stylesheet" href="style.css?v=wlsvf">
 </head>
 
 <body>
@@ -225,6 +225,7 @@
       <nav class="h0001-m9-nav h0001-m9-nav--sag" aria-label="Navigasyon">
         <ul><li><a class="h0001-m9-oge" href="/tr/belgelerimiz/">Belgelerimiz</a></li><li><a class="h0001-m9-oge" href="/tr/galeri/">Galeri</a></li><li><a class="h0001-m9-oge" href="/tr/hakkimizda/">Hakkımızda</a></li><li><a class="h0001-m9-oge" href="/tr/iletisim/">İletişim</a></li></ul>
       </nav>
+      
       <div class="h0001-m9-bar-dil"><nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/" hreflang="ar" lang="ar">AR</a></li></ul></nav></div>
       <button class="h0001-m9-hamburger" type="button" aria-expanded="false" aria-controls="m9-iora00-panel" aria-label="Menüyü Aç/Kapat">
         <span class="material-symbols-outlined" aria-hidden="true">menu</span>
@@ -276,6 +277,8 @@
     }
     if (dugme) { dugme.addEventListener("click", function () { if (panel && panel.hidden) { ac(); } else { kapa(); } }); }
     if (kapat) { kapat.addEventListener("click", kapa); }
+    
+    document.addEventListener("click", function (e) { if (panel && !panel.hidden && !panel.contains(e.target) && !(dugme && dugme.contains(e.target))) { kapa(); } });
     document.addEventListener("keydown", function (e) { if (e.key === "Escape") { kapa(); } });
     
     if (panel) {
@@ -313,7 +316,7 @@
   <div class="b0000-h4-wrap">
     <div class="b0000-h4-icerik">
       <p class="b0000-h4-eyebrow b0000-h4-in">Karayolu nakliye · Depolama · K1 · L1</p>
-      <h1 class="b0000-h4-baslik b0000-h4-in" id="h4-ohn13f-baslik">Yazılı teklif, sigortalı yük, zamanında teslim</h1>
+      <h1 class="b0000-h4-baslik b0000-h4-in" id="h4-ohn13f-baslik">Yazılı teklif, açık yetki, kayıtlı teslim</h1>
       <p class="b0000-h4-metin b0000-h4-in">Yeşil Yol Lojistik; komple ve parsiyel nakliye, depolama ve evden eve taşıma sunan kurgusal bir demo firmadır. Yetki belgeleri her teklifte açıkça yazılır.</p>
       <div class="b0000-h4-ctalar b0000-h4-in"><a class="b0000-h4-cta b0000-h4-cta--dolgu" href="/tr/teklif-al/">Teklif al<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a><a class="b0000-h4-cta b0000-h4-cta--cerceve" href="/tr/hizmetlerimiz/">Hizmetlerimiz</a></div>
       <ul class="b0000-h4-guven b0000-h4-in"><li><span class="material-symbols-outlined" aria-hidden="true">local_shipping</span><span>Komple nakliye</span></li><li><span class="material-symbols-outlined" aria-hidden="true">inventory_2</span><span>Parsiyel taşıma</span></li><li><span class="material-symbols-outlined" aria-hidden="true">warehouse</span><span>Depolama</span></li></ul>
@@ -438,8 +441,8 @@
     <header class="b0002-lb__head"><h2 class="b0002-lb__title">Birlikte çalıştığımız kurumlar (kurgusal)</h2></header>
     <div class="b0002-lb__band" role="region" aria-label="Referans logoları">
       <div class="b0002-lb__track">
-        <ul class="b0002-lb__set"><li class="b0002-lb__item"><span class="b0002-lb__word">Delta Gida</span></li><li class="b0002-lb__item"><span class="b0002-lb__word">Orion Tekstil</span></li><li class="b0002-lb__item"><span class="b0002-lb__word">Kalem Yapi</span></li><li class="b0002-lb__item"><span class="b0002-lb__word">Vega Makina</span></li><li class="b0002-lb__item"><span class="b0002-lb__word">Nova Ambalaj</span></li><li class="b0002-lb__item"><span class="b0002-lb__word">Atlas Tarim</span></li><li class="b0002-lb__item"><span class="b0002-lb__word">Zenit Mobilya</span></li></ul>
-        <ul class="b0002-lb__set b0002-lb__set--kopya" aria-hidden="true"><li class="b0002-lb__item" aria-hidden="true"><span class="b0002-lb__word">Delta Gida</span></li><li class="b0002-lb__item" aria-hidden="true"><span class="b0002-lb__word">Orion Tekstil</span></li><li class="b0002-lb__item" aria-hidden="true"><span class="b0002-lb__word">Kalem Yapi</span></li><li class="b0002-lb__item" aria-hidden="true"><span class="b0002-lb__word">Vega Makina</span></li><li class="b0002-lb__item" aria-hidden="true"><span class="b0002-lb__word">Nova Ambalaj</span></li><li class="b0002-lb__item" aria-hidden="true"><span class="b0002-lb__word">Atlas Tarim</span></li><li class="b0002-lb__item" aria-hidden="true"><span class="b0002-lb__word">Zenit Mobilya</span></li></ul>
+        <ul class="b0002-lb__set"><li class="b0002-lb__item"><span class="b0002-lb__word">Delta Gıda</span></li><li class="b0002-lb__item"><span class="b0002-lb__word">Orion Tekstil</span></li><li class="b0002-lb__item"><span class="b0002-lb__word">Kalem Yapı</span></li><li class="b0002-lb__item"><span class="b0002-lb__word">Vega Makina</span></li><li class="b0002-lb__item"><span class="b0002-lb__word">Nova Ambalaj</span></li><li class="b0002-lb__item"><span class="b0002-lb__word">Atlas Tarım</span></li><li class="b0002-lb__item"><span class="b0002-lb__word">Zenit Mobilya</span></li></ul>
+        <ul class="b0002-lb__set b0002-lb__set--kopya" aria-hidden="true"><li class="b0002-lb__item" aria-hidden="true"><span class="b0002-lb__word">Delta Gıda</span></li><li class="b0002-lb__item" aria-hidden="true"><span class="b0002-lb__word">Orion Tekstil</span></li><li class="b0002-lb__item" aria-hidden="true"><span class="b0002-lb__word">Kalem Yapı</span></li><li class="b0002-lb__item" aria-hidden="true"><span class="b0002-lb__word">Vega Makina</span></li><li class="b0002-lb__item" aria-hidden="true"><span class="b0002-lb__word">Nova Ambalaj</span></li><li class="b0002-lb__item" aria-hidden="true"><span class="b0002-lb__word">Atlas Tarım</span></li><li class="b0002-lb__item" aria-hidden="true"><span class="b0002-lb__word">Zenit Mobilya</span></li></ul>
       </div>
     </div>
   </div>
@@ -511,7 +514,7 @@
 <section class="b0004-sa b0004-sa-kartli" id="sa-nebphj" style="--sa-n:4">
   <div class="b0004-sa-wrap">
     <header class="b0004-sa-head"><p class="b0004-sa-eyebrow">Süreç</p><h2 class="b0004-sa-title">Tekliften teslimata</h2><p class="b0004-sa-desc">Dört adımda sevkiyat.</p></header>
-    <ol class="b0004-sa-list" aria-label="Süreç adımları"><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">forum</span></span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">Adım 1</span><h3 class="b0004-sa-h">Teklif talebi</h3><p class="b0004-sa-p">Yük, güzergâh ve tarihi bildirin.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">draw</span></span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">Adım 2</span><h3 class="b0004-sa-h">Teklif ve sözleşme</h3><p class="b0004-sa-p">Fiyat, süre ve yetki bilgisi yazılı iletilir.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">construction</span></span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">Adım 3</span><h3 class="b0004-sa-h">Yükleme</h3><p class="b0004-sa-p">Yük kontrol edilir, belgeler düzenlenir.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">verified</span></span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">Adım 4</span><h3 class="b0004-sa-h">Teslimat</h3><p class="b0004-sa-p">Teslim tutanağı ile yük alıcıya ulaştırılır.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li></ol>
+    <ol class="b0004-sa-list" aria-label="Süreç adımları"><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">forum</span></span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">Adım 1</span><h3 class="b0004-sa-h">Teklif talebi</h3><p class="b0004-sa-p">Yük, güzergâh ve tarihi bildirin.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span></span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">Adım 2</span><h3 class="b0004-sa-h">Teklif ve sözleşme</h3><p class="b0004-sa-p">Fiyat, süre ve yetki bilgisi yazılı iletilir.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">local_shipping</span></span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">Adım 3</span><h3 class="b0004-sa-h">Yükleme</h3><p class="b0004-sa-p">Yük kontrol edilir, belgeler düzenlenir.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">task_alt</span></span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">Adım 4</span><h3 class="b0004-sa-h">Teslimat</h3><p class="b0004-sa-p">Teslim tutanağı ile yük alıcıya ulaştırılır.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li></ol>
   </div>
 </section>
 
@@ -594,6 +597,7 @@
     <nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
   </div>
 </footer>
+<nav class="f0000-f9__bar" aria-label="Ana menü"><a class="f0000-f9__bar-oge" href="/tr/" aria-current="page"><span class="material-symbols-outlined" aria-hidden="true">home</span><span class="f0000-f9__bar-ad">Anasayfa</span></a><a class="f0000-f9__bar-oge" href="/tr/hizmetlerimiz/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Hizmetlerimiz</span></a><a class="f0000-f9__bar-oge" href="/tr/teklif-al/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Teklif Al</span></a><a class="f0000-f9__bar-oge" href="/tr/belgelerimiz/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Belgelerimiz</span></a><a class="f0000-f9__bar-oge" href="/tr/galeri/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Galeri</span></a></nav>
 
 <div class="f0001-dk" role="contentinfo" aria-label="Demo bilgisi">
   <p class="f0001-dk-text">Bu demo <bdi class="f0001-dk-brand" dir="ltr">Webyapar</bdi> tarafından hazırlanmıştır — <a class="f0001-dk-cta" href="https://webyapar.com/temalar#lojistik" target="_blank" rel="noopener noreferrer"><span>Bu temayı iste</span><span class="mx-visually-hidden"> (yeni sekmede açılır)</span><span class="material-symbols-outlined mx-flip f0001-dk-arrow" aria-hidden="true">arrow_forward</span></a></p>
@@ -604,10 +608,10 @@
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=nc52q"></script>
-  <script defer src="/src/mx-store.js?v=nc52q"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=nc52q"></script>
-  <script defer src="/src/cookie.js?v=nc52q"></script>
+  <script defer src="/src/mx-ui.js?v=wlsvf"></script>
+  <script defer src="/src/mx-store.js?v=wlsvf"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=wlsvf"></script>
+  <script defer src="/src/cookie.js?v=wlsvf"></script>
 
 </body>
 

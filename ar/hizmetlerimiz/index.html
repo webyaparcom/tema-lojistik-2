@@ -38,21 +38,21 @@
   <link rel="preload" href="/src/fonts/noto-sans/noto-sans-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/noto-sans/noto-sans-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/noto-sans/noto-sans-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/noto-sans.css?v=q8jzf" />
-  <link rel="stylesheet" href="/src/fonts/inter.css?v=q8jzf" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=q8jzf" />
-  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=q8jzf" />
-  <link rel="stylesheet" href="/src/rubik.css?v=q8jzf" />
-  <link rel="stylesheet" href="/src/css.css?v=q8jzf" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=q8jzf" />
+  <link rel="stylesheet" href="/src/fonts/noto-sans.css?v=wrxbo" />
+  <link rel="stylesheet" href="/src/fonts/inter.css?v=wrxbo" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=wrxbo" />
+  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=wrxbo" />
+  <link rel="stylesheet" href="/src/rubik.css?v=wrxbo" />
+  <link rel="stylesheet" href="/src/css.css?v=wrxbo" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=wrxbo" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=q8jzf" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=wrxbo" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=q8jzf" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=wrxbo" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=q8jzf" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=q8jzf" />
-  <link rel="shortcut icon" href="/img/icon.png?v=q8jzf" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=wrxbo" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=wrxbo" />
+  <link rel="shortcut icon" href="/img/icon.png?v=wrxbo" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -106,7 +106,7 @@
         "@type": "ImageObject",
         "url": "https://lojistik-2.webyapar.com/img/logo.png"
       },
-      "dateModified": "2026-10-31T14:45:58.345Z",
+      "dateModified": "2026-11-12T07:36:26.211Z",
       "breadcrumb": {
         "@id": "https://lojistik-2.webyapar.com/ar/hizmetlerimiz/#breadcrumb"
       }
@@ -133,7 +133,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=q8jzf">
+<link rel="stylesheet" href="style.css?v=wrxbo">
 </head>
 
 <body>
@@ -247,6 +247,7 @@
       <nav class="h0001-m9-nav h0001-m9-nav--sag" aria-label="التنقل">
         <ul><li><a class="h0001-m9-oge" href="/ar/belgelerimiz/">تراخيصنا</a></li><li><a class="h0001-m9-oge" href="/ar/galeri/">المعرض</a></li><li><a class="h0001-m9-oge" href="/ar/hakkimizda/">من نحن</a></li><li><a class="h0001-m9-oge" href="/ar/iletisim/">اتصل بنا</a></li></ul>
       </nav>
+      
       <div class="h0001-m9-bar-dil"><nav class="wm-langbar" aria-label="محدد اللغة"><ul><li class="wm-lang-item"><a href="/tr/hizmetlerimiz/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item"><a href="/en/hizmetlerimiz/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item wm-lang-active"><a href="/ar/hizmetlerimiz/" hreflang="ar" lang="ar" aria-current="true">AR</a></li></ul></nav></div>
       <button class="h0001-m9-hamburger" type="button" aria-expanded="false" aria-controls="m9-iora00-panel" aria-label="تبديل القائمة">
         <span class="material-symbols-outlined" aria-hidden="true">menu</span>
@@ -298,6 +299,8 @@
     }
     if (dugme) { dugme.addEventListener("click", function () { if (panel && panel.hidden) { ac(); } else { kapa(); } }); }
     if (kapat) { kapat.addEventListener("click", kapa); }
+    
+    document.addEventListener("click", function (e) { if (panel && !panel.hidden && !panel.contains(e.target) && !(dugme && dugme.contains(e.target))) { kapa(); } });
     document.addEventListener("keydown", function (e) { if (e.key === "Escape") { kapa(); } });
     
     if (panel) {
@@ -348,7 +351,7 @@
 <section class="b0001-sa b0001-sa-kartli" id="sa-nebphj" style="--sa-n:4">
   <div class="b0001-sa-wrap">
     <header class="b0001-sa-head"><p class="b0001-sa-eyebrow">الإجراءات</p><h2 class="b0001-sa-title">من العرض إلى التسليم</h2><p class="b0001-sa-desc">الشحن في أربع خطوات.</p></header>
-    <ol class="b0001-sa-list" aria-label="خطوات العملية"><li class="b0001-sa-step"><span class="b0001-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">forum</span></span><div class="b0001-sa-govde"><span class="b0001-sa-etiket">الخطوة 1</span><h3 class="b0001-sa-h">طلب عرض السعر</h3><p class="b0001-sa-p">أبلغنا بالشحنة والمسار والتاريخ.</p></div><span class="b0001-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0001-sa-step"><span class="b0001-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">draw</span></span><div class="b0001-sa-govde"><span class="b0001-sa-etiket">الخطوة 2</span><h3 class="b0001-sa-h">العرض والعقد</h3><p class="b0001-sa-p">يُرسَل السعر والمدة وبيانات الترخيص كتابةً.</p></div><span class="b0001-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0001-sa-step"><span class="b0001-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">construction</span></span><div class="b0001-sa-govde"><span class="b0001-sa-etiket">الخطوة 3</span><h3 class="b0001-sa-h">التحميل</h3><p class="b0001-sa-p">تُفحص الشحنة وتُجهَّز المستندات.</p></div><span class="b0001-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0001-sa-step"><span class="b0001-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">verified</span></span><div class="b0001-sa-govde"><span class="b0001-sa-etiket">الخطوة 4</span><h3 class="b0001-sa-h">التسليم</h3><p class="b0001-sa-p">تُسلَّم الشحنة إلى المستلم بمحضر تسليم.</p></div><span class="b0001-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li></ol>
+    <ol class="b0001-sa-list" aria-label="خطوات العملية"><li class="b0001-sa-step"><span class="b0001-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">forum</span></span><div class="b0001-sa-govde"><span class="b0001-sa-etiket">الخطوة 1</span><h3 class="b0001-sa-h">طلب عرض السعر</h3><p class="b0001-sa-p">أبلغنا بالشحنة والمسار والتاريخ.</p></div><span class="b0001-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0001-sa-step"><span class="b0001-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span></span><div class="b0001-sa-govde"><span class="b0001-sa-etiket">الخطوة 2</span><h3 class="b0001-sa-h">العرض والعقد</h3><p class="b0001-sa-p">يُرسَل السعر والمدة وبيانات الترخيص كتابةً.</p></div><span class="b0001-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0001-sa-step"><span class="b0001-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">local_shipping</span></span><div class="b0001-sa-govde"><span class="b0001-sa-etiket">الخطوة 3</span><h3 class="b0001-sa-h">التحميل</h3><p class="b0001-sa-p">تُفحص الشحنة وتُجهَّز المستندات.</p></div><span class="b0001-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0001-sa-step"><span class="b0001-sa-no" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">task_alt</span></span><div class="b0001-sa-govde"><span class="b0001-sa-etiket">الخطوة 4</span><h3 class="b0001-sa-h">التسليم</h3><p class="b0001-sa-p">تُسلَّم الشحنة إلى المستلم بمحضر تسليم.</p></div><span class="b0001-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li></ol>
   </div>
 </section>
 
@@ -431,6 +434,7 @@
     <nav class="wm-langbar" aria-label="محدد اللغة"><ul><li class="wm-lang-item"><a href="/tr/hizmetlerimiz/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item"><a href="/en/hizmetlerimiz/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item wm-lang-active"><a href="/ar/hizmetlerimiz/" hreflang="ar" lang="ar" aria-current="true">AR</a></li></ul></nav>
   </div>
 </footer>
+<nav class="f0000-f9__bar" aria-label="Main menu"><a class="f0000-f9__bar-oge" href="/ar/"><span class="material-symbols-outlined" aria-hidden="true">home</span><span class="f0000-f9__bar-ad">الصفحة الرئيسية</span></a><a class="f0000-f9__bar-oge" href="/ar/hizmetlerimiz/" aria-current="page"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">خدماتنا</span></a><a class="f0000-f9__bar-oge" href="/ar/teklif-al/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">اطلب عرض سعر</span></a><a class="f0000-f9__bar-oge" href="/ar/belgelerimiz/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">تراخيصنا</span></a><a class="f0000-f9__bar-oge" href="/ar/galeri/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">المعرض</span></a></nav>
 
 <div class="f0001-dk" role="contentinfo" aria-label="معلومات العرض التجريبي">
   <p class="f0001-dk-text">تم إعداد هذا العرض التجريبي بواسطة <bdi class="f0001-dk-brand" dir="ltr">Webyapar</bdi> — <a class="f0001-dk-cta" href="https://webyapar.com/temalar#lojistik" target="_blank" rel="noopener noreferrer"><span>اطلب هذا القالب</span><span class="mx-visually-hidden"> (يفتح في علامة تبويب جديدة)</span><span class="material-symbols-outlined mx-flip f0001-dk-arrow" aria-hidden="true">arrow_forward</span></a></p>
@@ -441,10 +445,10 @@
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=q8jzf"></script>
-  <script defer src="/src/mx-store.js?v=q8jzf"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=q8jzf"></script>
-  <script defer src="/src/cookie.js?v=q8jzf"></script>
+  <script defer src="/src/mx-ui.js?v=wrxbo"></script>
+  <script defer src="/src/mx-store.js?v=wrxbo"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=wrxbo"></script>
+  <script defer src="/src/cookie.js?v=wrxbo"></script>
 
 </body>
 
