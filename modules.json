@@ -175,7 +175,10 @@
         "img": "",
         "imgwidth": "250px",
         "stil": "",
-        "showlang": true
+        "showlang": true,
+        "showsocial": true,
+        "social": [],
+        "langcolor": ""
       },
       "data": [],
       "version": "1.0.0",
@@ -634,16 +637,16 @@
         },
         "icon2": "description",
         "name3": {
-          "tr": "Güvenli yük",
-          "en": "Safe cargo",
-          "ar": "شحنة آمنة"
+          "tr": "Kayıtlı teslim",
+          "en": "Documented delivery",
+          "ar": "تسليم موثّق"
         },
         "spot3": {
-          "tr": "Yük sigortası ve teslim tutanağı standarttır.",
-          "en": "Cargo insurance and a delivery note are standard.",
-          "ar": "تأمين الشحنة ومحضر التسليم أمران قياسيان."
+          "tr": "Sigorta kapsamı ve teslim tutanağı teklifte açıkça yazılır.",
+          "en": "Insurance cover and the delivery note are stated clearly in the quote.",
+          "ar": "يُذكر نطاق التأمين ومحضر التسليم بوضوح في العرض."
         },
-        "icon3": "shield",
+        "icon3": "task_alt",
         "img": "lojistik-2-forklift.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
@@ -1704,6 +1707,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "id": "6ibo2y",
@@ -1757,7 +1766,10 @@
           "en": "Weekdays 08:00 – 19:00 · Saturday 09:00 – 14:00",
           "ar": "أيام الأسبوع 08:00 – 19:00 · السبت 09:00 – 14:00"
         },
-        "social": []
+        "social": [],
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)"
       },
       "data": [],
       "id": "iora00",
@@ -1805,9 +1817,9 @@
           "ar": "نقل بري · تخزين · K1 · L1"
         },
         "title": {
-          "tr": "Yazılı teklif, sigortalı yük, zamanında teslim",
-          "en": "Written quote, insured cargo, on-time delivery",
-          "ar": "عرض مكتوب وشحنة مؤمَّنة وتسليم في الموعد"
+          "tr": "Yazılı teklif, açık yetki, kayıtlı teslim",
+          "en": "Written quote, clear authorisation, documented delivery",
+          "ar": "عرض مكتوب وترخيص واضح وتسليم موثّق"
         },
         "metin": {
           "tr": "Yeşil Yol Lojistik; komple ve parsiyel nakliye, depolama ve evden eve taşıma sunan kurgusal bir demo firmadır. Yetki belgeleri her teklifte açıkça yazılır.",
@@ -2115,7 +2127,7 @@
       },
       "data": [
         {
-          "name": "Delta Gida",
+          "name": "Delta Gıda",
           "img": "",
           "url": ""
         },
@@ -2125,7 +2137,7 @@
           "url": ""
         },
         {
-          "name": "Kalem Yapi",
+          "name": "Kalem Yapı",
           "img": "",
           "url": ""
         },
@@ -2140,7 +2152,7 @@
           "url": ""
         },
         {
-          "name": "Atlas Tarim",
+          "name": "Atlas Tarım",
           "img": "",
           "url": ""
         },
@@ -2296,7 +2308,7 @@
             "en": "Price, timing and authorisation details are sent in writing.",
             "ar": "يُرسَل السعر والمدة وبيانات الترخيص كتابةً."
           },
-          "ikon": "draw"
+          "ikon": "request_quote"
         },
         {
           "no": 3,
@@ -2310,7 +2322,7 @@
             "en": "The cargo is checked and the documents are prepared.",
             "ar": "تُفحص الشحنة وتُجهَّز المستندات."
           },
-          "ikon": "construction"
+          "ikon": "local_shipping"
         },
         {
           "no": 4,
@@ -2324,7 +2336,7 @@
             "en": "The cargo is handed to the receiver with a delivery note.",
             "ar": "تُسلَّم الشحنة إلى المستلم بمحضر تسليم."
           },
-          "ikon": "verified"
+          "ikon": "task_alt"
         }
       ],
       "id": "nebphj",
